@@ -4,17 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel=StyleSheet href="./css/main.css" type="text/css" media=screen>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" media="all">
     <title>Modal css</title>
 </head>
 <body>
     <a href="#miModal">Abrir Modal</a>
     <div id="miModal" class="modal">
-        <div class="modal-contenido">
-            <div><a href="#" class="btn-close">Cerrar</a></div>
-            <h2>Mi Modal</h2>
-            <p>Este es mi ventana modal con css.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="modal-content">
+            <div class="ico__container">
+                <a href="#" class="btn-close"><i class="fas fa-times"></i></a>
+            </div>
+            <h2>Información</h2>
+            <div class="main__content">
+                <p>¡Hola!</p>
+                <p>Hemos realizado cambios en el área privada.</p>
+                <p>Si quieres conocer el detalle de estas mejoras, puedes descargarte el siguiente documento</p>
+                <div class="btn__container">
+                    <button type="" id="" class=" btn btn-download">Descargar</button>
+                </div>
+                <div class="input_container">
+                    <input type="checkbox" id="cbox2" value="second_checkbox">
+                    <label for="cbox2">No mostrar más este mensaje</label> 
+                </div>
+                <div class="btn__container">
+                    <button type="" id="" class="btn accept ">Acepto</button>
+                    <button type="" id="" class="btn no-accept">No, acepto</button>
+                </div>
+            </div>
         </div>  
     </div>
+    <script src="https://kit.fontawesome.com/1baa5ed16a.js" crossorigin="anonymous"></script>
 </body>
 </html>

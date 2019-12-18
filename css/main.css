@@ -1,13 +1,14 @@
-.modal-contenido{
-    text-align: left;
+.modal-content{
+    font-family: Quicksand, sans-serif;
     background-color:#f5f5f5;
-    width:300px;
-    padding: 10px 20px;
-    margin:  10% auto;
+    width:400px;
+    padding: 20px 40px;
+    margin: 5% auto;
     position: relative;
+    font-size: 1rem;
 }
 .modal{
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.5);
     position:fixed;
     top: 0;
     left: 0;
@@ -22,3 +23,66 @@
     pointer-events: auto;
     transition: 0.8s ease-in-out;
 }
+
+.main__content {
+    padding: 10px 20px;
+    border: 2px solid #ebebeb;
+}
+
+.input_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.btn__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 200px;
+    padding: 6px 12px;
+    min-height: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.btn-download {
+    background-color: #f59b16;
+}
+
+.btn-download:hover {
+    background-color: #d07c00 ;
+}
+
+.accept {
+    background-color: #2b3e52;
+    margin-right: 5px;
+}
+
+.no-accept {
+    background-color: rgba(43, 62, 82, 0.8);
+    margin-left: 5px;
+}
+
+.no-accept:hover {
+    background-color: #2b3e52;
+}
+
+.accept:hover {
+    background-color: rgba(43, 62, 82, 0.8);
+}
+
+.ico__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fas {
+    color: #d3d3d3;
+}
+
